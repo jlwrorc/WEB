@@ -14,13 +14,13 @@
 <body>
     <div id="box0">
         <div class="news-title">
-            <ul class="news-module clear flexbox">
+            <ul class="news-module clear">
                 <div>
                     <div class="logo"></div>
-                    <div class="logo_text"></div>
+                    <!-- <div class="logo_text"></div> -->
                 </div>
 
-                <li class="active" onclick="mScroll('box0')">首页</li>
+                <li id="home" class="active" onclick="mScroll('box0')">首页</li>
                 <li onclick="mScroll('box1')">产品中心</li>
                 <li onclick="mScroll('box2')">行业</li>
                 <li onclick="mScroll('box3')">关于我们</li>
@@ -28,14 +28,11 @@
             </ul>
             <div class="news-slider"></div>
         </div>
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="../img/carousel1.jpg">
-                </div>
-                <div class="item">
-                    <img src="../img/carousel1.jpg">
+                    <img src="../img/轮播.png">
                 </div>
             </div>
         </div>
@@ -50,57 +47,62 @@
         </div>
         <div id="box4">
             <div class="memberitem">
-                <div>
-                    <p>徐俊华</p>
-                    <p>John Xu</p>
-                    <p>在市场研究行业拥有20多年的丰富经验，曾先后在澳大利亚，美国，中国等地工作，拥有全球视野，帮助很多全球客户在亚洲落地，并且取得很大的增长。</p>
-                </div>
-                <img src="" />
+                <img src="../img/徐俊华.png" />
+                <img src="../img/徐俊华2.png" />
             </div>
             <div class="memberitem">
-                <div>
-                    <p>Kenneth Lee</p>
-                    <p>在市场研究，消费者洞察方面超过20年的经验，致力于改革创新，培育人才,长期为各行业的跨国和本土零售巨头，快消市场公司, 以及金融服务公司提供市场管理咨询和分析服务。</p>
-                </div>
-                <img src="" />
+                <img src="../img/Kenneth lee.png" />
+                <img src="../img/Kenneth lee2.png" />
             </div>
             <div class="memberitem">
-                <div>
-                    <p>刘欢欢</p>
-                    <p>Huanhuan Liu</p>
-                    <p>是灵越科技的首席技术官（CTO），多年从事互联网领域，具有丰富的移动互联开发和大系统平台运维经验，以及技术系统国际合作经历。</p>
-                </div>
-                <img src="" />
+                <img src="../img/刘欢欢.png" />
+                <img src="../img/刘欢欢2.png" />
             </div>
             <div class="memberitem">
-                <div>
-                    <p>王刚</p>
-                    <p>John Xu</p>
-                    <p>在市场研究行业拥有20多年的丰富经验，曾先后在澳大利亚，美国，中国等地工作，拥有全球视野，帮助很多全球客户在亚洲落地，并且取得很大的增长。</p>
-                </div>
-                <img src="" />
+                <img src="../img/王刚.png" />
+                <img src="../img/王刚2.png" />
             </div>
         </div>
         <div id="box5"></div>
+        <div id="goToTop" onclick="btnClick('home')"></div>
         <footer>
             <div>
-                <div>
-                    <img src="../img/logo.png" />
-                    <img src="../img/logo_text.png" />
-                </div>
+                <div class="footerlogo"></div>
             </div>
             <div></div>
-            <div>
+            <div class="footerlink">
                 <div>
-                    
+                    <ul>
+                        <li>友商链接</li>
+                        <li>浩顿英菲</li>
+                        <li>WINE+</li>
+                        <li>好杏林+</li>
+                        <li>RedDingo</li>
+                    </ul>
                 </div>
-                <div></div>
-                <div></div>
+                <div>
+                    <ul>
+                        <li>网站导航</li>
+                        <li>产品中心</li>
+                        <li>行业</li>
+                        <li>关于我们</li>
+                        <li>我们团队</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>联系我们</li>
+                        <li>025-83130416</li>
+                        <li>江苏省 南京市 雨花区</li>
+                        <li>软件大道180号</li>
+                        <li>大数据产业基地6号楼 401室</li>
+                    </ul>
+                </div>
             </div>
             <div>
-                <p class="undertext">南京灵越信息技术有限公司     </p>
-                <a class="undertext">沪ICP备10019317号-2</a>
-                <p class="undertext">     Copyright © 2018 Holdendata. All rights reserved.</p>
+                <p class="undertext">南京灵越信息技术有限公司 </p>
+                <!-- <a class="undertext">沪ICP备10019317号-2</a>
+                <p class="undertext"> Copyright © 2018 Holdendata. All rights reserved.</p> -->
             </div>
         </footer>
     </div>
