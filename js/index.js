@@ -26,8 +26,9 @@ $(document).ready(function () {
 });
 
 function mScroll(id) {
+    var height=$(".news-title").height();
     $("html,body").stop(true);
-    $("html,body").animate({ scrollTop: $("#" + id).offset().top }, 1000);
+    $("html,body").animate({ scrollTop: $("#" + id).offset().top-height }, 1000);
     return false;
 }
 function fnResize() {

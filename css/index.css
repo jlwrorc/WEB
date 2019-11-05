@@ -8,7 +8,6 @@ ul {
 }
 
 .news-title {
-    position: relative;
     /* border-bottom: 0.2rem solid #e5e8f0; */
     position: fixed;
     top: 0;
@@ -32,7 +31,7 @@ ul li {
 
 .news-module>li {
     /* width: 20%; */
-    margin-left: .6rem;
+    margin-left: .59rem;
     text-align: center;
     font-size: .24rem;
     color: #FFFFFF;
@@ -83,22 +82,24 @@ ul li {
 
 #box1 {
     height: 9.76rem;
-    background: #90FD99;
+
     background-image: url("../img/产品中心.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
 #box2 {
-    height: 8.33rem;
-    background: #2D2B5C;
+    height: 8.334rem;
     background-image: url("../img/行业.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
 #box3 {
     height: 8.33rem;
-    background: #90FD99;
+
     background-image: url("../img/关于我们.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
@@ -107,15 +108,17 @@ ul li {
     justify-content: center;
     align-items: center;
     height: 8.33rem;
-    background: lightcyan;
+
     background-image: url("../img/我们团队.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
 #box5 {
     height: 2.47rem;
-    background: #FFFFFF;
+
     background-image: url("../img/合作商.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
