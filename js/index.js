@@ -1,5 +1,10 @@
 $(document).ready(function () {
     fnResize();
+    $("#page").fullpage({
+        autoScrolling:true,
+		scrollHorizontally: true
+    });
+    
     var th_width = $(".news-module li").eq(0).width();
     var th_left = $(".news-module li").eq(0).offset().left;
     var slider_width = $(".news-slider").width();
@@ -16,9 +21,9 @@ $(document).ready(function () {
     });
 
     $(".memberitem").hover(function () {
-        $(this).children("img").toggle();
+        $(this).children("img:first-child").toggle();
     }, function () {
-        $(this).children("img").toggle();
+        $(this).children("img:first-child").toggle();
     });
 
 
